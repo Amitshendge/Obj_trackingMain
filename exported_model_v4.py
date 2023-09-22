@@ -6,7 +6,7 @@ import tensorflow
 
 PROB_THRESHOLD = 0.7  # Minimum probably to show results.
 dir_path="V4TensorFlowModel"
-label_file=open(r"V4TensorFlowModel\labels.txt","r")
+label_file=open(r"V4TensorFlowModel/labels.txt","r")
 labels=label_file.read().split("\n")
 # image=Image.open("frame.jpg")
 # h,w,ch=np.array(image).shape
